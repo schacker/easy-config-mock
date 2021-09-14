@@ -1,0 +1,41 @@
+{
+  "name": "@schacker/easy-config-mock",
+  "version": "1.1.0",
+  "description": "easy mock data with easy config, support customize middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schacker/easy-config-mock.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "schacker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schacker/easy-config-mock/issues"
+  },
+  "homepage": "https://github.com/schacker/easy-config-mock#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chokidar": "^3.5.2",
+    "express": "^4.16.3",
+    "mockjs": "^1.0.1-beta3",
+    "portfinder": "^1.0.13"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "index.js",
+    "middlewares.js",
+    "server.js",
+    "package-lock.json",
+    "package.json",
+    "README-ZH",
+    "README"
+  ]
+}
